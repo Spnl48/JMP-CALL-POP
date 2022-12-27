@@ -13,6 +13,18 @@ will use the most popular and classic method of relative addressing in shellcode
 Relative addressing can be used in shellcode to specify the location of resources or destinations relative to the current position of the shellcode in memory. This can be useful in situations where the exact location of the shellcode is not known or may change, such as when the shellcode is injected into a running program or system.
 For example, if the shellcode needs to call a function or access a specific memory location, it can use relative addressing to specify the location of the function or memory location relative to the current position of the shellcode. This allows the shellcode to access the function or memory location without needing to know the exact address of the function or location in memory. Overall, relative addressing can be a useful technique in shellcode to make it more flexible and adaptable to changing environments, but it can also make it more difficult to detect and mitigate, as it can make it harder to identify the exact location and actions of the shellcode.
 
+TOOLS REQUIRED.
+
+• gcc - it is a C and C++ compiler. 
+
+• ld – it is a tool used for linking . 
+
+• nasm - the Netwide Assembler is a portable 80x86 assembler
+
+• objdump – it is a tool that displays information from object files. 
+
+• strace – A tool to trace system calls and signals
+
 
 Linken as Object File
 
