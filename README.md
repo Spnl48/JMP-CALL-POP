@@ -16,7 +16,8 @@ For example, if the shellcode needs to call a function or access a specific memo
 
 Linken as Object File
 
-nasm -f elf32 -o shellcode.o mylow.nasm
+nasm -f elf32 -o shellcode.o mylow.nasm \n
+
 ld -m elf_i386 -o execve shellcode.o
 
 I obtained the shellcode that I’d be using:
